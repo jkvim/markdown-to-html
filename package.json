@@ -1,0 +1,21 @@
+{
+  "name": "md-to-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rehype-document": "^2.0.1",
+    "rehype-stringify": "^3.0.0",
+    "remark-highlight.js": "^5.0.0",
+    "remark-html": "^7.0.0",
+    "remark-parse": "^5.0.0",
+    "remark-rehype": "^3.0.0",
+    "unified": "^6.1.6"
+  }
+}
